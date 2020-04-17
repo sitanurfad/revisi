@@ -48,7 +48,7 @@
           <li class="nav-item ">
             <a class="nav-item nav-link btn btn-primary text-white tombol" href="{{ route('getLogin') }}">Masuk</a>
           </li>
-          <br>
+          
           <li class="nav-item">
             <a class="nav-item nav-link btn btn-primary text-white tombol" href="{{ route('getRegister') }}">Register</a>
           </li>
@@ -67,8 +67,8 @@
   <header class="masthead" style="margin-top: -100px; color: white">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Perkat!</div>
-        <div class="intro-heading text-uppercase">Pengaduan Layanan Masyrakat</div>
+        <div class="intro-lead-in">Pengaduan Layanan Masyarakat</div>
+        <div class="intro-heading text-uppercase">PERKAT</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ route('laporan.user') }}">Lapor</a>
       </div>
     </div>
